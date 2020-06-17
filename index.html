@@ -1,48 +1,37 @@
-<DOCTYPE! html>
-	<html>
-	<head>
-	<style>
-	@import url("https://use.typekit.net/rcp4tzd.css");
-	
-	.JuniperText {
-		font-family: juniper-std, sans-serif; text-align: center;
-	}
-	
-	.ChapmanText {
-		font-family: chapman, sans-serif;
-	}
-		
-		
-	</style>
-	
-	</head>
-	
-	<body>
-		<div class="JuniperText" style="background-color: LightBlue">
-			<h1 style="text-align: center; font-size: 175px; margin-bottom: 0px">PEN MARKS</h1>
-		</div>
-		
-	<article>
-		
-		<div class="ChapmanText" style="float: left; margin-top: 0px; padding: 10px, 10px, 10px, 10px; background-color: Purple">
-		
-				<p style="font-size: 30px; text-align: center;">ARTICLE TITLE HERE!</p>
-				<p style="font-size: 15px; text-align: justify;">This is the first part of the article.</p>
-		</div>
-		
-		<div class="ChapmanText" style="float: right; margin-top: 0px; background-color: LightGreen">
-				
-				<p style="font-size: 15px; text-align: justify;">A continuation of the same article.</p>
-		
-		</div>
-				 
-		<div class="ChapmanText" style="background-color: LightCoral">
-			<h2 style="line-height: 1.5; margin-top: 0px; font-size: 25px"><i>you should be...</i></h2><br>
-		</div>
-			
-		
-		</article>
-			
-	</body>
-	</html>
-		
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Three Equal Columns</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
